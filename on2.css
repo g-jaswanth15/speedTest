@@ -1,0 +1,113 @@
+#min,#sec{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+#complete,#min1,#sec1{
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: rgb(139, 0, 76);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#last{
+    font-size: 35px;
+    color: rgb(225, 65, 113);
+}
+#click{
+    border-radius: 20px;
+    border: none;
+    font-size: 25px;
+    color: rgb(241, 238, 238);
+    background-color: darkgreen;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+#start{
+    margin-top: 100px;
+    text-align: center;
+}
+#click:hover{
+    background-color: darkred;
+}
+#reload{
+    float: right;
+    font-size: 30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#textarea{
+    border:  2px solid #000;
+    width: 70%;
+    margin-right: calc((30%)/2);
+    margin-left: calc((30%)/2) ;
+    min-height: 300px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(110, 110, 23);
+    box-shadow:  0 0 20px  rgba(151, 146, 146, 0.5);
+    color: whitesmoke;
+}
+
+#text{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#timer{
+    border: 2px solid rgb(5, 5, 5);
+    margin-right: 90%;
+    text-align: center;
+    color: rgb(250, 246, 246);
+    background-color: rgb(5, 150, 5);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+#time{
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#here,#t{
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#buttons{
+    float: right;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+#submit{
+    color: rgb(241, 238, 238);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    background: green;
+    font-size: 15px;
+    cursor: pointer;
+}
+#clear{
+    color: rgb(241, 238, 238);
+    border-radius: 20px;
+    border: none;
+    padding: 10px 20px;
+    background: red;
+    font-size: 15px;
+    cursor: pointer;
+}
